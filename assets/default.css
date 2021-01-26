@@ -1,0 +1,196 @@
+.jm-category-module.default .mod-article-image {
+	margin-bottom: 20px;
+}
+
+.jm-category-module.default .mod-articles-category-title + .mod-article-image {
+	margin-top: 20px;
+}
+
+.jm-category-module.default .mod-article-image.pull-left {
+	margin-right: 20px;
+}
+
+html[dir='rtl'] .jm-category-module.default .mod-article-image.pull-left {
+	margin-right: 0;
+	margin-left: 20px;
+}
+
+.jm-category-module.default .mod-article-image.pull-right {
+	margin-left: 20px;
+}
+
+html[dir='rtl'] .jm-category-module.default .mod-article-image.pull-right {
+	margin-left: 0;
+	margin-right: 20px;
+}
+
+.jm-category-module.default .jmm-row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.jm-category-module.default .jmm-rows {
+	margin: -15px;
+}
+
+.jm-category-module.default .jmm-rows > div > .jmm-item {
+	float: left;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+html[dir='rtl'] .jm-category-module.default .jmm-rows > div > .jmm-item {
+	float: right;
+}
+
+.jm-category-module.default .jmm-rows.rows-1 > div > .jmm-item {
+	width: 100%;
+}
+
+.jm-category-module.default .jmm-rows.rows-2 > div > .jmm-item {
+	width: 50%;
+}
+
+.jm-category-module.default .jmm-rows.rows-3 > div > .jmm-item {
+	width: 33.33%;
+}
+
+.jm-category-module.default .jmm-rows.rows-4 > div > .jmm-item {
+	width: 25%;
+}
+
+.jm-category-module.default .jmm-rows.rows-5 > div > .jmm-item {
+	width: 20%;
+}
+
+.jm-category-module.default .jmm-rows.rows-6 > div > .jmm-item {
+	width: 16.66%;
+}
+
+.jm-category-module.default .jmm-rows.rows-7 > div > .jmm-item {
+	width: 14.28%;
+}
+
+.jm-category-module.default .jmm-rows.rows-8 > div > .jmm-item {
+	width: 12.5%;
+}
+
+.jm-category-module.default .jmm-rows.rows-9 > div > .jmm-item {
+	width: 11.11%;
+}
+
+.jm-category-module.default .jmm-rows.rows-10 > div > .jmm-item {
+	width: 10%;
+}
+
+.jm-category-module.default .jmm-rows.rows-11 > div > .jmm-item {
+	width: 9.09%;
+}
+
+.jm-category-module.default .jmm-rows.rows-12 > div > .jmm-item {
+	width: 8.33%;
+}
+
+@media (max-width: 767px) {
+	.jm-category-module.default .jmm-rows[class*='rows-'] > div > .jmm-item {
+		width: 100%;
+	}
+}
+
+/* item */
+
+.jm-category-module.default .jmm-text span {
+	display: block;
+}
+
+.jm-category-module.default .jmm-text .jmm-title {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 0 5px;
+}
+
+.jm-category-module.default .jmm-text .jmm-hits,
+.jm-category-module.default .jmm-text .jmm-author,
+.jm-category-module.default .jmm-text .jmm-category,
+.jm-category-module.default .jmm-text .jmm-date {
+	font-size: 0.9em;
+}
+
+.jm-category-module.default .jmm-text .jmm-date {
+	opacity: 0.9;
+}
+
+.jm-category-module.default .jmm-intortext {
+	margin: 10px 0 0;
+}
+
+.jm-category-module.default .jmm-readmore {
+	margin-top: 5px;
+}
+
+/* carousel */
+
+.jm-category-module.default.carousel {
+	line-height: inherit;
+	margin: -15px;
+}
+
+.jm-category-module.default.carousel .jmm-rows {
+	margin: 0;
+}
+
+.jm-category-module.default.carousel .carousel-indicators {
+	padding: 5px;
+}
+
+.jm-category-module.default.carousel .carousel-indicators li {
+	background: currentColor;
+	opacity: 0.6;
+	cursor: pointer;
+}
+
+.jm-category-module.default.carousel .carousel-indicators .active {
+	opacity: 1;
+}
+
+.jm-category-module.default.carousel .carousel-control {
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 40px;
+}
+
+.jm-category-module.default.carousel .carousel-control.left,
+.jm-category-module.default.carousel .carousel-control.right {
+	margin: 5px;
+}
+
+.jm-category-module.default.carousel .carousel-control .arrow {
+	display: inline-block;
+	font-family: 'Glyphicons Halflings';
+	font-style: normal;
+	font-weight: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.jm-category-module.default.carousel .carousel-control.left .arrow:before {
+	content: "\e079";
+}
+
+.jm-category-module.default.carousel .carousel-control.right .arrow:before {
+	content: "\e080";
+}
+
+/* wcag */
+
+.jm-category-module.default .sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect(0,0,0,0);
+	border: 0;
+}
